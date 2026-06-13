@@ -51,7 +51,19 @@
         "value": "linkedin.com/in/akbarbintangmahendra",
         "href": "https://www.linkedin.com/in/akbarbintangmahendra/"
       }
-    ]
+    ],
+    "chat": {
+      "whatsapp": {
+        "label": "WhatsApp",
+        "number": "+62 87863385482",
+        "href": "https://wa.me/6287863385482"
+      },
+      "telegram": {
+        "label": "Telegram",
+        "number": "+62 87863385482",
+        "href": "https://t.me/+6287863385482"
+      }
+    }
   },
   "highlights": [
     {
@@ -278,95 +290,185 @@
       "organization": "PT Akhdani Reka Solusi with IOTEL",
       "period": "March 2024 - October 2025",
       "description": "Property management modules for booking, rate plans, room management, channel manager integration, and booking engine payment flow.",
-      "stack": ["Java Spring", "Laravel", "Blade", "Vue.js", "PostgreSQL", "Channex", "Xendit"]
+      "stack": ["Java Spring", "Laravel", "Blade", "Vue.js", "PostgreSQL", "Channex", "Xendit"],
+      "appLink": "https://example.com/apps/inntouch-hotellier",
+      "previewImages": [
+        { "src": "/previews/hospitality-dashboard.svg", "alt": "Inntouch Hotellier dashboard preview" },
+        { "src": "/previews/booking-flow.svg", "alt": "Booking flow preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Hospitality analytics preview" }
+      ]
     },
     {
       "name": "Internal HR App",
       "organization": "PT Akhdani Reka Solusi",
       "period": "August 2025 - October 2025",
       "description": "Internal HR system covering employee profiles, task lists, attendance tracking, and leave management.",
-      "stack": ["Java Spring", "PostgreSQL"]
+      "stack": ["Java Spring", "PostgreSQL"],
+      "appLink": "https://example.com/apps/internal-hr",
+      "previewImages": [
+        { "src": "/previews/hr-dashboard.svg", "alt": "Internal HR dashboard preview" },
+        { "src": "/previews/task-board.svg", "alt": "Task board preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "HR analytics preview" }
+      ]
     },
     {
       "name": "Pertamina TKDN",
       "organization": "PT Akhdani Reka Solusi",
       "period": "September 2025 - October 2025",
       "description": "TKDN compliance platform upgrade with improved validation flow, maintainability, and UI responsiveness.",
-      "stack": [".NET API Core", "Blazor", "SQL Server"]
+      "stack": [".NET API Core", "Blazor", "SQL Server"],
+      "appLink": "https://example.com/apps/pertamina-tkdn",
+      "previewImages": [
+        { "src": "/previews/compliance-workflow.svg", "alt": "TKDN compliance workflow preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Compliance analytics preview" },
+        { "src": "/previews/form-module.svg", "alt": "Validation form preview" }
+      ]
     },
     {
       "name": "KPK ACLC",
       "organization": "PT Akhdani Reka Solusi",
       "period": "Professional project",
       "description": "Learning platform modules for KPK's e-learning ecosystem with backend and frontend improvements.",
-      "stack": ["Java Spring", "Laravel", "Blade", "Quasar", "PostgreSQL"]
+      "stack": ["Java Spring", "Laravel", "Blade", "Quasar", "PostgreSQL"],
+      "appLink": "https://example.com/apps/kpk-aclc",
+      "previewImages": [
+        { "src": "/previews/learning-platform.svg", "alt": "KPK ACLC learning platform preview" },
+        { "src": "/previews/course-list.svg", "alt": "Course list preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Learning analytics preview" }
+      ]
     },
     {
       "name": "HXMS ICON PLN",
       "organization": "PT Akhdani Reka Solusi",
       "period": "June 2023 - March 2024",
       "description": "Human capital management system for ICONNET, a subdivision of PT PLN.",
-      "stack": ["Java Spring", "Vue.js", "PostgreSQL"]
+      "stack": ["Java Spring", "Vue.js", "PostgreSQL"],
+      "appLink": "https://example.com/apps/hxms-icon-pln",
+      "previewImages": [
+        { "src": "/previews/hr-dashboard.svg", "alt": "HXMS dashboard preview" },
+        { "src": "/previews/employee-profile.svg", "alt": "Employee profile preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "HXMS analytics preview" }
+      ]
     },
     {
       "name": "LKAI PLN",
       "organization": "PT Akhdani Reka Solusi",
       "period": "April 2023 - June 2023",
       "description": "Laravel-based internal system work for PT PLN.",
-      "stack": ["Laravel", "PostgreSQL"]
+      "stack": ["Laravel", "PostgreSQL"],
+      "appLink": "https://example.com/apps/lkai-pln",
+      "previewImages": [
+        { "src": "/previews/finance-dashboard.svg", "alt": "LKAI PLN dashboard preview" },
+        { "src": "/previews/form-module.svg", "alt": "Finance form preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Finance analytics preview" }
+      ]
     },
     {
       "name": "Production Management",
       "organization": "PT True Spices Indonesia",
       "period": "March 2022 - March 2023",
       "description": "Production management application for operational tracking and company workflows.",
-      "stack": ["Laravel", "MySQL"]
+      "stack": ["Laravel", "MySQL"],
+      "appLink": "https://example.com/apps/production-management",
+      "previewImages": [
+        { "src": "/previews/production-dashboard.svg", "alt": "Production dashboard preview" },
+        { "src": "/previews/workflow-board.svg", "alt": "Production workflow preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Production analytics preview" }
+      ]
     },
     {
       "name": "CMS and Product Management",
       "organization": "PT Surya Inti Aneka Pangan",
       "period": "January 2022 - March 2022",
       "description": "Company profile, product content, and CMS management system.",
-      "stack": ["Laravel", "MySQL"]
+      "stack": ["Laravel", "MySQL"],
+      "appLink": "https://example.com/apps/cms-product-management",
+      "previewImages": [
+        { "src": "/previews/cms-dashboard.svg", "alt": "CMS dashboard preview" },
+        { "src": "/previews/product-grid.svg", "alt": "Product grid preview" },
+        { "src": "/previews/form-module.svg", "alt": "CMS form preview" }
+      ]
     },
     {
       "name": "Logistic Tracking Management",
       "organization": "PT Teru Tritunggal",
       "period": "December 2021 - February 2022",
       "description": "Logistic tracking features and application maintenance.",
-      "stack": ["Laravel", "MySQL"]
+      "stack": ["Laravel", "MySQL"],
+      "appLink": "https://example.com/apps/logistic-tracking",
+      "previewImages": [
+        { "src": "/previews/logistic-tracking.svg", "alt": "Logistic tracking preview" },
+        { "src": "/previews/workflow-board.svg", "alt": "Logistic workflow preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Logistic analytics preview" }
+      ]
     }
   ],
   "independentProjects": [
     {
       "name": "Property Booking System",
       "description": "Enterprise-inspired property booking platform focused on scalable backend architecture, asynchronous processing, and search optimization.",
-      "stack": ["Java Spring", "Go Gin", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"]
+      "stack": ["Java Spring", "Go Gin", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"],
+      "appLink": "https://example.com/apps/property-booking-system",
+      "previewImages": [
+        { "src": "/previews/hospitality-dashboard.svg", "alt": "Property booking dashboard preview" },
+        { "src": "/previews/booking-flow.svg", "alt": "Property booking flow preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Property analytics preview" }
+      ]
     },
     {
       "name": "Human Resources and Asset Management System",
       "description": "Experimental HRIS system covering assets, employee management, asset tracking, and reporting modules.",
-      "stack": ["Java Spring", "Angular", "PostgreSQL", "RabbitMQ", "Elasticsearch"]
+      "stack": ["Java Spring", "Angular", "PostgreSQL", "RabbitMQ", "Elasticsearch"],
+      "appLink": "https://example.com/apps/hris-asset-management",
+      "previewImages": [
+        { "src": "/previews/hr-dashboard.svg", "alt": "HRIS dashboard preview" },
+        { "src": "/previews/asset-management.svg", "alt": "Asset management preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "HRIS analytics preview" }
+      ]
     },
     {
       "name": "Production Management System",
       "description": "Manufacturing-oriented system for raw material processing, production workflow tracking, and operational reporting.",
-      "stack": ["Java Spring", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"]
+      "stack": ["Java Spring", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"],
+      "appLink": "https://example.com/apps/production-management-system",
+      "previewImages": [
+        { "src": "/previews/production-dashboard.svg", "alt": "Production system dashboard preview" },
+        { "src": "/previews/workflow-board.svg", "alt": "Production workflow board preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Production system analytics preview" }
+      ]
     },
     {
       "name": "Warehouse Management System",
       "description": "Warehousing-oriented system for goods workflow tracking and operational reporting.",
-      "stack": ["Java Spring", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"]
+      "stack": ["Java Spring", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"],
+      "appLink": "https://example.com/apps/warehouse-management-system",
+      "previewImages": [
+        { "src": "/previews/warehouse-dashboard.svg", "alt": "Warehouse dashboard preview" },
+        { "src": "/previews/logistic-tracking.svg", "alt": "Warehouse tracking preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Warehouse analytics preview" }
+      ]
     },
     {
       "name": "AMS Recordify",
       "description": "Accounting management system for financial records, transaction tracking, and searchable accounting data.",
-      "stack": ["Go Gin", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"]
+      "stack": ["Go Gin", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"],
+      "appLink": "https://example.com/apps/ams-recordify",
+      "previewImages": [
+        { "src": "/previews/finance-dashboard.svg", "alt": "AMS Recordify dashboard preview" },
+        { "src": "/previews/form-module.svg", "alt": "Accounting form preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Accounting analytics preview" }
+      ]
     },
     {
       "name": "Social Media Application",
       "description": "Feature-complete social media application including user interaction and content management.",
-      "stack": ["Laravel", "Vue.js", "PostgreSQL"]
+      "stack": ["Laravel", "Vue.js", "PostgreSQL"],
+      "appLink": "https://example.com/apps/social-media-application",
+      "previewImages": [
+        { "src": "/previews/social-feed.svg", "alt": "Social media feed preview" },
+        { "src": "/previews/profile-page.svg", "alt": "Social profile preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Social media analytics preview" }
+      ]
     }
   ]
 }

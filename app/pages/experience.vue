@@ -25,9 +25,11 @@ useSeoMeta({
       </div>
 
       <aside class="col-lg-4">
-        <div class="card mb-3">
+        <div class="card mb-3 shadow-sm">
           <div class="card-body">
-            <h2 class="h5 card-title">Education</h2>
+            <h2 class="h5 card-title">
+              <i class="fa-solid fa-graduation-cap text-primary me-2"></i>Education
+            </h2>
             <div v-for="education in data.education" :key="education.school" class="mb-3">
               <p class="fw-semibold mb-1">{{ education.degree }}</p>
               <p class="mb-1">{{ education.school }}</p>
@@ -38,9 +40,11 @@ useSeoMeta({
           </div>
         </div>
 
-        <div class="card">
+        <div class="card shadow-sm">
           <div class="card-body">
-            <h2 class="h5 card-title">Languages</h2>
+            <h2 class="h5 card-title">
+              <i class="fa-solid fa-language text-primary me-2"></i>Languages
+            </h2>
             <ul class="list-group list-group-flush">
               <li
                 v-for="language in data.languages"

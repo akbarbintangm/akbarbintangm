@@ -2,6 +2,8 @@
 const data = useProfileData()
 const featuredExperience = computed(() => data.experience.slice(0, 3))
 const featuredProjects = computed(() => data.professionalProjects.slice(0, 3))
+const highlightIcons = ['fa-solid fa-code-branch', 'fa-solid fa-diagram-project', 'fa-solid fa-layer-group']
+const quickFactIcons = ['fa-solid fa-bullseye', 'fa-solid fa-code', 'fa-solid fa-database', 'fa-solid fa-rocket']
 
 useSeoMeta({
   title: `${data.identity.name} - ${data.identity.role}`,
@@ -11,10 +13,18 @@ useSeoMeta({
 
 <template>
   <div>
-    <section class="container py-5">
+    <section class="bg-body-tertiary border-bottom">
+      <div class="container py-5">
       <div class="row align-items-center g-4">
         <div class="col-lg-8">
-          <p class="text-uppercase text-primary fw-semibold small mb-2">{{ data.identity.role }}</p>
+          <div class="d-flex flex-wrap gap-2 mb-3">
+            <span class="badge text-bg-primary">
+              <i class="fa-solid fa-laptop-code me-1"></i>{{ data.identity.role }}
+            </span>
+            <span class="badge text-bg-light border">
+              <i class="fa-solid fa-location-dot me-1"></i>{{ data.identity.currentBase }}
+            </span>
+          </div>
           <h1 class="display-5 fw-bold mb-3">{{ data.identity.name }}</h1>
           <p class="lead text-body-secondary">{{ data.identity.headline }}</p>
           <p v-for="paragraph in data.identity.summary.slice(0, 2)" :key="paragraph">
@@ -22,15 +32,24 @@ useSeoMeta({
           </p>
 
           <div class="d-flex flex-wrap gap-2 mt-4">
-            <NuxtLink class="btn btn-primary" to="/projects">View Projects</NuxtLink>
-            <NuxtLink class="btn btn-outline-primary" to="/contact">Contact</NuxtLink>
+            <NuxtLink class="btn btn-primary" to="/projects">
+              <i class="fa-solid fa-layer-group me-1"></i>View Projects
+            </NuxtLink>
+            <NuxtLink class="btn btn-outline-primary" to="/contact">
+              <i class="fa-solid fa-paper-plane me-1"></i>Contact
+            </NuxtLink>
           </div>
         </div>
 
         <div class="col-lg-4">
-          <div class="card">
+          <div class="card hero-panel shadow-sm border-primary">
             <div class="card-body">
-              <h2 class="h5 card-title">Profile Snapshot</h2>
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <span class="btn btn-primary disabled rounded-circle d-inline-flex align-items-center justify-content-center">
+                  <i class="fa-solid fa-id-card"></i>
+                </span>
+                <h2 class="h5 card-title mb-0">Profile Snapshot</h2>
+              </div>
               <KeyValueList
                 :items="[
                   { label: 'Location', value: data.identity.location },
@@ -43,14 +62,20 @@ useSeoMeta({
           </div>
         </div>
       </div>
+      </div>
     </section>
 
-    <section class="container pb-5">
+    <section class="container py-5">
       <div class="row row-cols-1 row-cols-md-3 g-3">
-        <div v-for="highlight in data.highlights" :key="highlight.label" class="col">
-          <div class="card h-100">
+        <div v-for="(highlight, index) in data.highlights" :key="highlight.label" class="col">
+          <div class="card h-100 shadow-sm">
             <div class="card-body">
-              <p class="display-6 fw-semibold mb-1">{{ highlight.value }}</p>
+              <div class="d-flex align-items-center gap-3 mb-3">
+                <span class="btn btn-outline-primary disabled rounded-circle d-inline-flex align-items-center justify-content-center">
+                  <i :class="highlightIcons[index]"></i>
+                </span>
+                <p class="display-6 fw-semibold mb-0">{{ highlight.value }}</p>
+              </div>
               <p class="text-body-secondary mb-0">{{ highlight.label }}</p>
             </div>
           </div>
@@ -66,10 +91,12 @@ useSeoMeta({
       />
 
       <div class="row row-cols-1 row-cols-lg-2 g-3">
-        <div v-for="fact in data.identity.quickFacts" :key="fact.label" class="col">
-          <div class="card h-100">
+        <div v-for="(fact, index) in data.identity.quickFacts" :key="fact.label" class="col">
+          <div class="card h-100 shadow-sm">
             <div class="card-body">
-              <h2 class="h5 card-title">{{ fact.label }}</h2>
+              <h2 class="h5 card-title">
+                <i :class="quickFactIcons[index]" class="text-primary me-2"></i>{{ fact.label }}
+              </h2>
               <p class="mb-0">{{ fact.value }}</p>
             </div>
           </div>

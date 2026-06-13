@@ -29,9 +29,11 @@ useSeoMeta({
 
     <div class="row row-cols-1 row-cols-lg-2 g-3">
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 shadow-sm">
           <div class="card-body">
-            <h2 class="h5 card-title">Backend and Integration</h2>
+            <h2 class="h5 card-title">
+              <i class="fa-solid fa-plug text-primary me-2"></i>Backend and Integration
+            </h2>
             <p class="mb-0">
               API contracts, business logic, database design, integration points, and documentation need to be understandable before they become large.
             </p>
@@ -39,9 +41,11 @@ useSeoMeta({
         </div>
       </div>
       <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 shadow-sm">
           <div class="card-body">
-            <h2 class="h5 card-title">Frontend Delivery</h2>
+            <h2 class="h5 card-title">
+              <i class="fa-solid fa-window-maximize text-primary me-2"></i>Frontend Delivery
+            </h2>
             <p class="mb-0">
               Interfaces should stay responsive, consistent, and useful for the people who work with them every day.
             </p>

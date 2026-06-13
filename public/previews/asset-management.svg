@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Asset management preview">
+  <rect width="1200" height="750" fill="#f8f9fa"/>
+  <text x="70" y="92" fill="#212529" font-family="Arial" font-size="34" font-weight="700">Asset Management</text>
+  <rect x="70" y="140" width="1060" height="510" rx="24" fill="#fff" stroke="#dee2e6"/>
+  <g fill="#e7f1ff" stroke="#b6d4fe">
+    <rect x="130" y="210" width="210" height="140" rx="18"/>
+    <rect x="390" y="210" width="210" height="140" rx="18"/>
+    <rect x="650" y="210" width="210" height="140" rx="18"/>
+    <rect x="910" y="210" width="160" height="140" rx="18"/>
+  </g>
+  <rect x="130" y="430" width="940" height="54" rx="12" fill="#f8f9fa" stroke="#dee2e6"/>
+  <rect x="130" y="520" width="760" height="54" rx="12" fill="#f8f9fa" stroke="#dee2e6"/>
+</svg>

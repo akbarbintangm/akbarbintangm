@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Analytics panel preview">
+  <rect width="1200" height="750" fill="#f8f9fa"/>
+  <rect x="60" y="60" width="1080" height="630" rx="22" fill="#fff" stroke="#dee2e6"/>
+  <text x="104" y="126" fill="#212529" font-family="Arial" font-size="34" font-weight="700">Analytics Overview</text>
+  <rect x="104" y="170" width="220" height="130" rx="18" fill="#cff4fc"/>
+  <rect x="354" y="170" width="220" height="130" rx="18" fill="#d1e7dd"/>
+  <rect x="604" y="170" width="220" height="130" rx="18" fill="#f8d7da"/>
+  <rect x="854" y="170" width="220" height="130" rx="18" fill="#fff3cd"/>
+  <rect x="104" y="356" width="620" height="250" rx="18" fill="#f8f9fa" stroke="#dee2e6"/>
+  <rect x="780" y="356" width="294" height="250" rx="18" fill="#f8f9fa" stroke="#dee2e6"/>
+  <polyline points="144,548 236,488 328,512 420,430 512,470 604,390 684,420" fill="none" stroke="#0d6efd" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="927" cy="481" r="82" fill="none" stroke="#198754" stroke-width="34"/>
+  <path d="M927 399 A82 82 0 0 1 1009 481" fill="none" stroke="#0d6efd" stroke-width="34"/>
+</svg>

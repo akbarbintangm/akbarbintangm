@@ -34,9 +34,11 @@ useSeoMeta({
 
         <div class="row row-cols-1 row-cols-md-2 g-3">
           <div v-for="contact in data.identity.contacts" :key="contact.label" class="col">
-            <div class="card h-100">
+            <div class="card h-100 shadow-sm">
               <div class="card-body">
-                <h2 class="h5 card-title">{{ contact.label }}</h2>
+                <h2 class="h5 card-title">
+                  <i class="fa-solid fa-address-book text-primary me-2"></i>{{ contact.label }}
+                </h2>
                 <p class="text-body-secondary">{{ contact.value }}</p>
                 <a
                   class="btn btn-outline-primary btn-sm"
@@ -44,7 +46,7 @@ useSeoMeta({
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Open {{ contact.label }}
+                  <i class="fa-solid fa-arrow-up-right-from-square me-1"></i>Open {{ contact.label }}
                 </a>
               </div>
             </div>
@@ -53,16 +55,20 @@ useSeoMeta({
       </div>
 
       <aside class="col-lg-5">
-        <div class="card">
+        <div class="card shadow-sm">
           <div class="card-body">
-            <h2 class="h5 card-title">Availability Notes</h2>
+            <h2 class="h5 card-title">
+              <i class="fa-solid fa-briefcase text-primary me-2"></i>Availability Notes
+            </h2>
             <KeyValueList :items="availability" />
           </div>
         </div>
 
-        <div class="card mt-3">
+        <div class="card mt-3 shadow-sm">
           <div class="card-body">
-            <h2 class="h5 card-title">Short Summary</h2>
+            <h2 class="h5 card-title">
+              <i class="fa-solid fa-user-tie text-primary me-2"></i>Short Summary
+            </h2>
             <p v-for="paragraph in data.identity.summary" :key="paragraph">
               {{ paragraph }}
             </p>

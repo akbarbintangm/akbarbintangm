@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Compliance workflow preview">
+  <rect width="1200" height="750" fill="#f8f9fa"/>
+  <rect x="72" y="72" width="1056" height="606" rx="24" fill="#fff" stroke="#dee2e6"/>
+  <text x="124" y="138" fill="#212529" font-family="Arial" font-size="34" font-weight="700">Compliance Workflow</text>
+  <rect x="124" y="205" width="210" height="120" rx="18" fill="#e7f1ff"/>
+  <rect x="494" y="205" width="210" height="120" rx="18" fill="#fff3cd"/>
+  <rect x="864" y="205" width="210" height="120" rx="18" fill="#d1e7dd"/>
+  <path d="M355 265 H470 M725 265 H840" stroke="#0d6efd" stroke-width="10" stroke-linecap="round"/>
+  <rect x="124" y="400" width="950" height="54" rx="12" fill="#f8f9fa" stroke="#dee2e6"/>
+  <rect x="124" y="485" width="950" height="54" rx="12" fill="#f8f9fa" stroke="#dee2e6"/>
+  <rect x="124" y="570" width="760" height="54" rx="12" fill="#f8f9fa" stroke="#dee2e6"/>
+</svg>

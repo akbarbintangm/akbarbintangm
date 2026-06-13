@@ -7,11 +7,13 @@ const profileData = useProfileData()
     <NuxtRouteAnnouncer />
     <FullPageLoader />
     <AppNavbar :profile="profileData.identity" />
+    <AppSidebar :profile="profileData.identity" :contacts="profileData.identity.contacts" />
 
     <main class="flex-grow-1">
-      <NuxtPage />
+      <NuxtPage :transition="{ name: 'page', mode: 'out-in' }" />
     </main>
 
     <AppFooter :profile="profileData.identity" :contacts="profileData.identity.contacts" />
+    <FloatingActions :chat="profileData.identity.chat" />
   </div>
 </template>
