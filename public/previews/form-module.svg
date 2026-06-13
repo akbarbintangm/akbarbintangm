@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Form module preview">
+  <rect width="1200" height="750" fill="#eef2f7"/>
+  <rect x="210" y="70" width="780" height="610" rx="24" fill="#fff" stroke="#dee2e6"/>
+  <text x="270" y="140" fill="#212529" font-family="Arial" font-size="34" font-weight="700">Data Form</text>
+  <rect x="270" y="200" width="660" height="54" rx="12" fill="#f8f9fa" stroke="#ced4da"/>
+  <rect x="270" y="300" width="300" height="54" rx="12" fill="#f8f9fa" stroke="#ced4da"/>
+  <rect x="630" y="300" width="300" height="54" rx="12" fill="#f8f9fa" stroke="#ced4da"/>
+  <rect x="270" y="400" width="660" height="130" rx="12" fill="#f8f9fa" stroke="#ced4da"/>
+  <rect x="270" y="580" width="170" height="48" rx="24" fill="#0d6efd"/>
+</svg>

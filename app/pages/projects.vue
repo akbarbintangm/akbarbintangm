@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const data = useProfileData()
+const activeProject = ref<any | null>(null)
 
 useSeoMeta({
   title: `Projects - ${data.identity.name}`,
@@ -17,7 +18,7 @@ useSeoMeta({
 
     <div class="row row-cols-1 row-cols-lg-2 g-3 mb-5">
       <div v-for="project in data.professionalProjects" :key="project.name" class="col">
-        <ProjectCard :project="project" />
+        <ProjectCard :project="project" @open-gallery="activeProject = $event" />
       </div>
     </div>
 
@@ -29,8 +30,10 @@ useSeoMeta({
 
     <div class="row row-cols-1 row-cols-lg-2 g-3">
       <div v-for="project in data.independentProjects" :key="project.name" class="col">
-        <ProjectCard :project="project" />
+        <ProjectCard :project="project" @open-gallery="activeProject = $event" />
       </div>
     </div>
+
+    <ProjectGalleryModal :project="activeProject" @closed="activeProject = null" />
   </div>
 </template>

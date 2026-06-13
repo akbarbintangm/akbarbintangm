@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Logistic tracking preview">
+  <rect width="1200" height="750" fill="#f8f9fa"/>
+  <rect x="70" y="70" width="1060" height="610" rx="24" fill="#fff" stroke="#dee2e6"/>
+  <text x="120" y="135" fill="#212529" font-family="Arial" font-size="34" font-weight="700">Logistic Tracking</text>
+  <rect x="120" y="190" width="520" height="390" rx="20" fill="#e7f1ff"/>
+  <path d="M170 485 C270 310 370 500 470 330 C530 240 585 280 610 220" fill="none" stroke="#0d6efd" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="170" cy="485" r="20" fill="#198754"/>
+  <circle cx="610" cy="220" r="20" fill="#dc3545"/>
+  <rect x="700" y="190" width="330" height="70" rx="16" fill="#f8f9fa" stroke="#dee2e6"/>
+  <rect x="700" y="300" width="330" height="70" rx="16" fill="#f8f9fa" stroke="#dee2e6"/>
+  <rect x="700" y="410" width="330" height="70" rx="16" fill="#f8f9fa" stroke="#dee2e6"/>
+</svg>

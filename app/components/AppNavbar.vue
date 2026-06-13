@@ -6,20 +6,23 @@ defineProps<{
   }
 }>()
 
-const navigation = [
-  { label: 'Home', to: '/' },
-  { label: 'Experience', to: '/experience' },
-  { label: 'Projects', to: '/projects' },
-  { label: 'Skills', to: '/skills' },
-  { label: 'Contact', to: '/contact' }
-]
-
-const { theme, toggleTheme } = useProfileTheme()
+const navigation = useProfileNavigation()
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom sticky-top">
+  <nav class="navbar navbar-expand-lg sticky-top site-navbar">
     <div class="container">
+      <button
+        class="btn btn-outline-primary menu-trigger me-3 d-inline-flex align-items-center justify-content-center"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#profileSidebar"
+        aria-controls="profileSidebar"
+        aria-label="Open sidebar menu"
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
       <NuxtLink class="navbar-brand" to="/">
         <span class="fw-semibold">{{ profile.name }}</span>
         <small class="d-block text-body-secondary">{{ profile.role }}</small>
@@ -41,23 +44,11 @@ const { theme, toggleTheme } = useProfileTheme()
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li v-for="item in navigation" :key="item.to" class="nav-item">
             <NuxtLink class="nav-link" exact-active-class="active" :to="item.to">
+              <i :class="item.icon" class="me-1"></i>
               {{ item.label }}
             </NuxtLink>
           </li>
         </ul>
-
-        <div class="form-check form-switch ms-lg-3">
-          <input
-            id="themeSwitch"
-            class="form-check-input"
-            type="checkbox"
-            role="switch"
-            :checked="theme === 'dark'"
-            aria-label="Toggle dark theme"
-            @change="toggleTheme"
-          >
-          <label class="form-check-label" for="themeSwitch">Dark</label>
-        </div>
       </div>
     </div>
   </nav>
