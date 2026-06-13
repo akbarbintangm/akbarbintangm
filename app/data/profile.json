@@ -1,0 +1,474 @@
+{
+  "identity": {
+    "name": "Akbar Bintang Mahendra",
+    "role": "Full Stack Developer",
+    "headline": "Software Engineer focused on backend engineering, system integration, and practical frontend delivery.",
+    "location": "Depok, Jawa Barat, Indonesia",
+    "currentBase": "South Jakarta, Jakarta, Indonesia",
+    "email": "akbarbintangmahendra@gmail.com",
+    "phone": "+62 87863385482",
+    "summary": [
+      "I am a Software Engineer with hands-on experience in full-stack development, with a strong focus on backend engineering and system integration.",
+      "My work covers RESTful API development, Swagger/OpenAPI documentation, payment gateway integration with Xendit, channel manager integration with Channex, relational and non-relational databases, and Linux-based hosting environments.",
+      "I value clean code, scalability, maintainability, and long-term reliability when building enterprise systems, internal tools, and production-ready web applications."
+    ],
+    "quickFacts": [
+      {
+        "label": "Primary focus",
+        "value": "Backend engineering, REST APIs, and system integration"
+      },
+      {
+        "label": "Main stack",
+        "value": "Go, Java Spring Boot, PHP Laravel, Vue, Nuxt, Angular"
+      },
+      {
+        "label": "Databases",
+        "value": "PostgreSQL, MySQL, MariaDB, MongoDB, SQL Server, Elasticsearch"
+      },
+      {
+        "label": "Workflow",
+        "value": "Docker, Jenkins, CI/CD, Linux, SSH, Swagger/OpenAPI"
+      }
+    ],
+    "contacts": [
+      {
+        "label": "Email",
+        "value": "akbarbintangmahendra@gmail.com",
+        "href": "mailto:akbarbintangmahendra@gmail.com"
+      },
+      {
+        "label": "WhatsApp",
+        "value": "+62 87863385482",
+        "href": "https://wa.me/6287863385482"
+      },
+      {
+        "label": "GitHub",
+        "value": "github.com/akbarbintangm",
+        "href": "https://github.com/akbarbintangm"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/akbarbintangmahendra",
+        "href": "https://www.linkedin.com/in/akbarbintangmahendra/"
+      }
+    ],
+    "chat": {
+      "whatsapp": {
+        "label": "WhatsApp",
+        "number": "+62 87863385482",
+        "href": "https://wa.me/6287863385482"
+      },
+      "telegram": {
+        "label": "Telegram",
+        "number": "+62 87863385482",
+        "href": "https://t.me/+6287863385482"
+      }
+    }
+  },
+  "highlights": [
+    {
+      "value": "5+",
+      "label": "Years building software"
+    },
+    {
+      "value": "10+",
+      "label": "Professional projects"
+    },
+    {
+      "value": "Full-stack",
+      "label": "Backend, frontend, integration"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Management Information Systems, General",
+      "school": "Institut Teknologi Adhi Tama Surabaya",
+      "period": "2019 - 2024",
+      "location": "Surabaya, Jawa Timur"
+    },
+    {
+      "degree": "Computer Software Engineering",
+      "school": "SMK ANTARTIKA 2 SIDOARJO",
+      "period": "2016 - 2019",
+      "location": "Sidoarjo, Jawa Timur"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Indonesian",
+      "level": "Native or bilingual"
+    },
+    {
+      "name": "Javanese",
+      "level": "Native or bilingual"
+    },
+    {
+      "name": "English",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Japanese",
+      "level": "Elementary"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Backend Development",
+      "items": [
+        "PHP Laravel",
+        "Go Gin",
+        "Go Fiber",
+        "Java Spring Boot",
+        ".NET API Core",
+        "REST APIs",
+        "Swagger/OpenAPI",
+        "Clean architecture"
+      ]
+    },
+    {
+      "category": "Frontend Development",
+      "items": [
+        "Vue.js",
+        "Nuxt.js",
+        "Quasar",
+        "Angular",
+        "Bootstrap",
+        "Blazor",
+        "Laravel Blade",
+        "Responsive UI"
+      ]
+    },
+    {
+      "category": "Database and Search",
+      "items": [
+        "PostgreSQL",
+        "MySQL",
+        "MariaDB",
+        "SQL Server",
+        "MongoDB",
+        "Elasticsearch",
+        "Neon",
+        "Supabase"
+      ]
+    },
+    {
+      "category": "Infrastructure and Workflow",
+      "items": [
+        "Docker",
+        "Jenkins",
+        "CI/CD",
+        "Linux",
+        "SSH",
+        "RabbitMQ",
+        "Liquibase",
+        "Server configuration"
+      ]
+    },
+    {
+      "category": "Integration and Product Work",
+      "items": [
+        "Xendit payment gateway",
+        "Channex channel manager",
+        "Enterprise systems",
+        "CMS",
+        "HR systems",
+        "Hospitality systems",
+        "Financial workflows"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "PT Sigmatech",
+      "role": "Full Stack Developer",
+      "period": "January 2026 - Present",
+      "location": "Jakarta Selatan, Jakarta",
+      "summary": "Working as a Full Stack Developer with assignments to Hypernet clients and placement support for FFI/KFC Gelael Tebet systems.",
+      "bullets": [
+        "Support operational systems running at client locations.",
+        "Work on internal FFI/KFC systems such as cash, inventory, consolidation, and backoffice flows.",
+        "Contribute to SSO and HRMS-related application needs."
+      ],
+      "stack": ["Full-stack development", "Client support", "Operational systems"]
+    },
+    {
+      "company": "PT. Akhdani Reka Solusi",
+      "role": "Junior Software Engineer",
+      "period": "April 2023 - October 2025",
+      "location": "Bandung, Jawa Barat",
+      "summary": "Designed, developed, and maintained enterprise systems for government and private sectors using Laravel, Java Spring, Vue.js, Quasar, .NET 6, and PostgreSQL.",
+      "bullets": [
+        "Maintained PLN E-Budget financial modules and improved budget approval workflows.",
+        "Built and optimized HXMS ICON PLN features with Vue.js, Java Spring APIs, and PostgreSQL.",
+        "Maintained KPK ACLC learning modules with Quasar and Laravel.",
+        "Developed Inntouch/Hotello PMS modules for booking, rate plans, room management, Channex, and Xendit integration.",
+        "Created Internal HR App APIs and data models for employee profiles, tasks, attendance, and leave management.",
+        "Upgraded Pertamina TKDN flows using .NET 6, Blazor UI, and SQL Server."
+      ],
+      "stack": ["Laravel", "Java Spring Boot", "Vue.js", "Quasar", ".NET 6", "PostgreSQL", "SQL Server"]
+    },
+    {
+      "company": "True Spices Indonesia",
+      "role": "Back End Developer",
+      "period": "March 2022 - March 2023",
+      "location": "Surabaya, Jawa Timur",
+      "summary": "Handled backend development, sprint tasks, backend documentation, application maintenance, database work, and hosting support.",
+      "bullets": [
+        "Prepared backend documentation for frontend integration.",
+        "Supported project managers in solving production problems and adding features.",
+        "Maintained company applications, databases, and hosting."
+      ],
+      "stack": ["PHP Laravel", "MySQL", "Backend documentation", "Hosting"]
+    },
+    {
+      "company": "KaryoDev",
+      "role": "Full Stack Developer",
+      "period": "January 2022 - March 2023",
+      "location": "Surabaya, Jawa Timur",
+      "summary": "Worked on full-stack development projects for PT True Spices Indonesia and PT Terutritunggal.",
+      "bullets": [
+        "Built and maintained features based on project requirements.",
+        "Worked across backend, frontend, and application support tasks."
+      ],
+      "stack": ["Full-stack development", "Laravel", "MySQL"]
+    },
+    {
+      "company": "PT Surya Inti Aneka Pangan",
+      "role": "Full Stack Developer",
+      "period": "January 2022 - April 2022",
+      "location": "Surabaya, Jawa Timur",
+      "summary": "Developed a company profile website and CMS to support marketing, SEO, analytics, and internal content management.",
+      "bullets": [
+        "Implemented UI designs into working website pages.",
+        "Built an admin page to manage CMS content.",
+        "Joined daily scrums and weekly progress presentations with management."
+      ],
+      "stack": ["PHP Laravel", "MySQL", "CMS", "SEO"]
+    },
+    {
+      "company": "PT Teru Tritunggal",
+      "role": "Back End Developer",
+      "period": "December 2021 - February 2022",
+      "location": "Surabaya, Jawa Timur",
+      "summary": "Worked as a freelancer on additional features and bug fixes for existing applications.",
+      "bullets": [
+        "Solved application bugs and improved feature reliability.",
+        "Delivered requested backend additions based on leadership direction."
+      ],
+      "stack": ["PHP Laravel", "MySQL", "Backend maintenance"]
+    },
+    {
+      "company": "Quantum Leap Global Solution",
+      "role": "Full Stack Developer",
+      "period": "September 2021 - December 2021",
+      "location": "Surabaya, Jawa Timur",
+      "summary": "Completed internship and project support work through daily reports, scrums, backlog handling, and feature assistance.",
+      "bullets": [
+        "Supported Human Resource Plus, Project Asset Management, and MAAS CHAMP Development.",
+        "Handled bug fixing and feature work on ongoing projects."
+      ],
+      "stack": ["PHP Laravel", "PostgreSQL", "Full-stack development"]
+    },
+    {
+      "company": "Mahendra Creative Media",
+      "role": "Freelance Full Stack Engineer",
+      "period": "April 2019 - Present",
+      "location": "Surabaya, Sidoarjo, Depok, and Jakarta",
+      "summary": "Developing independent software engineering projects focused on backend systems, distributed architecture, and infrastructure-aware development.",
+      "bullets": [
+        "Implemented Docker-based containerization per project.",
+        "Designed CI/CD pipelines with Jenkins tailored to each system.",
+        "Configured server environments and deployment workflows.",
+        "Built experimental systems for booking, HR, production, warehouse, accounting, and social media use cases."
+      ],
+      "stack": ["Java Spring Boot", "Go", "Laravel", "Vue.js", "Angular", "PostgreSQL", "RabbitMQ", "Elasticsearch"]
+    }
+  ],
+  "professionalProjects": [
+    {
+      "name": "Inntouch Hotellier - Property Management System",
+      "organization": "PT Akhdani Reka Solusi with IOTEL",
+      "period": "March 2024 - October 2025",
+      "description": "Property management modules for booking, rate plans, room management, channel manager integration, and booking engine payment flow.",
+      "stack": ["Java Spring", "Laravel", "Blade", "Vue.js", "PostgreSQL", "Channex", "Xendit"],
+      "appLink": "https://example.com/apps/inntouch-hotellier",
+      "previewImages": [
+        { "src": "/previews/hospitality-dashboard.svg", "alt": "Inntouch Hotellier dashboard preview" },
+        { "src": "/previews/booking-flow.svg", "alt": "Booking flow preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Hospitality analytics preview" }
+      ]
+    },
+    {
+      "name": "Internal HR App",
+      "organization": "PT Akhdani Reka Solusi",
+      "period": "August 2025 - October 2025",
+      "description": "Internal HR system covering employee profiles, task lists, attendance tracking, and leave management.",
+      "stack": ["Java Spring", "PostgreSQL"],
+      "appLink": "https://example.com/apps/internal-hr",
+      "previewImages": [
+        { "src": "/previews/hr-dashboard.svg", "alt": "Internal HR dashboard preview" },
+        { "src": "/previews/task-board.svg", "alt": "Task board preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "HR analytics preview" }
+      ]
+    },
+    {
+      "name": "Pertamina TKDN",
+      "organization": "PT Akhdani Reka Solusi",
+      "period": "September 2025 - October 2025",
+      "description": "TKDN compliance platform upgrade with improved validation flow, maintainability, and UI responsiveness.",
+      "stack": [".NET API Core", "Blazor", "SQL Server"],
+      "appLink": "https://example.com/apps/pertamina-tkdn",
+      "previewImages": [
+        { "src": "/previews/compliance-workflow.svg", "alt": "TKDN compliance workflow preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Compliance analytics preview" },
+        { "src": "/previews/form-module.svg", "alt": "Validation form preview" }
+      ]
+    },
+    {
+      "name": "KPK ACLC",
+      "organization": "PT Akhdani Reka Solusi",
+      "period": "Professional project",
+      "description": "Learning platform modules for KPK's e-learning ecosystem with backend and frontend improvements.",
+      "stack": ["Java Spring", "Laravel", "Blade", "Quasar", "PostgreSQL"],
+      "appLink": "https://example.com/apps/kpk-aclc",
+      "previewImages": [
+        { "src": "/previews/learning-platform.svg", "alt": "KPK ACLC learning platform preview" },
+        { "src": "/previews/course-list.svg", "alt": "Course list preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Learning analytics preview" }
+      ]
+    },
+    {
+      "name": "HXMS ICON PLN",
+      "organization": "PT Akhdani Reka Solusi",
+      "period": "June 2023 - March 2024",
+      "description": "Human capital management system for ICONNET, a subdivision of PT PLN.",
+      "stack": ["Java Spring", "Vue.js", "PostgreSQL"],
+      "appLink": "https://example.com/apps/hxms-icon-pln",
+      "previewImages": [
+        { "src": "/previews/hr-dashboard.svg", "alt": "HXMS dashboard preview" },
+        { "src": "/previews/employee-profile.svg", "alt": "Employee profile preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "HXMS analytics preview" }
+      ]
+    },
+    {
+      "name": "LKAI PLN",
+      "organization": "PT Akhdani Reka Solusi",
+      "period": "April 2023 - June 2023",
+      "description": "Laravel-based internal system work for PT PLN.",
+      "stack": ["Laravel", "PostgreSQL"],
+      "appLink": "https://example.com/apps/lkai-pln",
+      "previewImages": [
+        { "src": "/previews/finance-dashboard.svg", "alt": "LKAI PLN dashboard preview" },
+        { "src": "/previews/form-module.svg", "alt": "Finance form preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Finance analytics preview" }
+      ]
+    },
+    {
+      "name": "Production Management",
+      "organization": "PT True Spices Indonesia",
+      "period": "March 2022 - March 2023",
+      "description": "Production management application for operational tracking and company workflows.",
+      "stack": ["Laravel", "MySQL"],
+      "appLink": "https://example.com/apps/production-management",
+      "previewImages": [
+        { "src": "/previews/production-dashboard.svg", "alt": "Production dashboard preview" },
+        { "src": "/previews/workflow-board.svg", "alt": "Production workflow preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Production analytics preview" }
+      ]
+    },
+    {
+      "name": "CMS and Product Management",
+      "organization": "PT Surya Inti Aneka Pangan",
+      "period": "January 2022 - March 2022",
+      "description": "Company profile, product content, and CMS management system.",
+      "stack": ["Laravel", "MySQL"],
+      "appLink": "https://example.com/apps/cms-product-management",
+      "previewImages": [
+        { "src": "/previews/cms-dashboard.svg", "alt": "CMS dashboard preview" },
+        { "src": "/previews/product-grid.svg", "alt": "Product grid preview" },
+        { "src": "/previews/form-module.svg", "alt": "CMS form preview" }
+      ]
+    },
+    {
+      "name": "Logistic Tracking Management",
+      "organization": "PT Teru Tritunggal",
+      "period": "December 2021 - February 2022",
+      "description": "Logistic tracking features and application maintenance.",
+      "stack": ["Laravel", "MySQL"],
+      "appLink": "https://example.com/apps/logistic-tracking",
+      "previewImages": [
+        { "src": "/previews/logistic-tracking.svg", "alt": "Logistic tracking preview" },
+        { "src": "/previews/workflow-board.svg", "alt": "Logistic workflow preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Logistic analytics preview" }
+      ]
+    }
+  ],
+  "independentProjects": [
+    {
+      "name": "Property Booking System",
+      "description": "Enterprise-inspired property booking platform focused on scalable backend architecture, asynchronous processing, and search optimization.",
+      "stack": ["Java Spring", "Go Gin", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"],
+      "appLink": "https://example.com/apps/property-booking-system",
+      "previewImages": [
+        { "src": "/previews/hospitality-dashboard.svg", "alt": "Property booking dashboard preview" },
+        { "src": "/previews/booking-flow.svg", "alt": "Property booking flow preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Property analytics preview" }
+      ]
+    },
+    {
+      "name": "Human Resources and Asset Management System",
+      "description": "Experimental HRIS system covering assets, employee management, asset tracking, and reporting modules.",
+      "stack": ["Java Spring", "Angular", "PostgreSQL", "RabbitMQ", "Elasticsearch"],
+      "appLink": "https://example.com/apps/hris-asset-management",
+      "previewImages": [
+        { "src": "/previews/hr-dashboard.svg", "alt": "HRIS dashboard preview" },
+        { "src": "/previews/asset-management.svg", "alt": "Asset management preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "HRIS analytics preview" }
+      ]
+    },
+    {
+      "name": "Production Management System",
+      "description": "Manufacturing-oriented system for raw material processing, production workflow tracking, and operational reporting.",
+      "stack": ["Java Spring", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"],
+      "appLink": "https://example.com/apps/production-management-system",
+      "previewImages": [
+        { "src": "/previews/production-dashboard.svg", "alt": "Production system dashboard preview" },
+        { "src": "/previews/workflow-board.svg", "alt": "Production workflow board preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Production system analytics preview" }
+      ]
+    },
+    {
+      "name": "Warehouse Management System",
+      "description": "Warehousing-oriented system for goods workflow tracking and operational reporting.",
+      "stack": ["Java Spring", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"],
+      "appLink": "https://example.com/apps/warehouse-management-system",
+      "previewImages": [
+        { "src": "/previews/warehouse-dashboard.svg", "alt": "Warehouse dashboard preview" },
+        { "src": "/previews/logistic-tracking.svg", "alt": "Warehouse tracking preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Warehouse analytics preview" }
+      ]
+    },
+    {
+      "name": "AMS Recordify",
+      "description": "Accounting management system for financial records, transaction tracking, and searchable accounting data.",
+      "stack": ["Go Gin", "Vue.js", "PostgreSQL", "RabbitMQ", "Elasticsearch"],
+      "appLink": "https://example.com/apps/ams-recordify",
+      "previewImages": [
+        { "src": "/previews/finance-dashboard.svg", "alt": "AMS Recordify dashboard preview" },
+        { "src": "/previews/form-module.svg", "alt": "Accounting form preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Accounting analytics preview" }
+      ]
+    },
+    {
+      "name": "Social Media Application",
+      "description": "Feature-complete social media application including user interaction and content management.",
+      "stack": ["Laravel", "Vue.js", "PostgreSQL"],
+      "appLink": "https://example.com/apps/social-media-application",
+      "previewImages": [
+        { "src": "/previews/social-feed.svg", "alt": "Social media feed preview" },
+        { "src": "/previews/profile-page.svg", "alt": "Social profile preview" },
+        { "src": "/previews/analytics-panel.svg", "alt": "Social media analytics preview" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Task board preview">
+  <rect width="1200" height="750" fill="#f8f9fa"/>
+  <text x="70" y="90" fill="#212529" font-family="Arial" font-size="34" font-weight="700">Task Board</text>
+  <g fill="#fff" stroke="#dee2e6">
+    <rect x="70" y="130" width="310" height="500" rx="20"/>
+    <rect x="445" y="130" width="310" height="500" rx="20"/>
+    <rect x="820" y="130" width="310" height="500" rx="20"/>
+  </g>
+  <g fill="#e7f1ff">
+    <rect x="104" y="202" width="242" height="92" rx="14"/>
+    <rect x="104" y="326" width="242" height="92" rx="14"/>
+  </g>
+  <g fill="#d1e7dd">
+    <rect x="479" y="202" width="242" height="92" rx="14"/>
+    <rect x="479" y="326" width="242" height="92" rx="14"/>
+    <rect x="479" y="450" width="242" height="92" rx="14"/>
+  </g>
+  <g fill="#fff3cd">
+    <rect x="854" y="202" width="242" height="92" rx="14"/>
+  </g>
+</svg>

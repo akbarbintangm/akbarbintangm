@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Booking flow preview">
+  <rect width="1200" height="750" fill="#eef6ff"/>
+  <text x="64" y="92" fill="#0d6efd" font-family="Arial" font-size="34" font-weight="700">Booking Flow</text>
+  <rect x="64" y="130" width="1072" height="520" rx="24" fill="#ffffff" stroke="#b6d4fe"/>
+  <rect x="110" y="190" width="240" height="350" rx="18" fill="#f8f9fa" stroke="#dee2e6"/>
+  <rect x="480" y="190" width="240" height="350" rx="18" fill="#f8f9fa" stroke="#dee2e6"/>
+  <rect x="850" y="190" width="240" height="350" rx="18" fill="#f8f9fa" stroke="#dee2e6"/>
+  <path d="M365 365 H455" stroke="#0d6efd" stroke-width="12" stroke-linecap="round"/>
+  <path d="M735 365 H825" stroke="#0d6efd" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="230" cy="280" r="54" fill="#0d6efd"/>
+  <circle cx="600" cy="280" r="54" fill="#198754"/>
+  <circle cx="970" cy="280" r="54" fill="#ffc107"/>
+  <rect x="154" y="390" width="150" height="18" rx="9" fill="#6c757d"/>
+  <rect x="524" y="390" width="150" height="18" rx="9" fill="#6c757d"/>
+  <rect x="894" y="390" width="150" height="18" rx="9" fill="#6c757d"/>
+</svg>
