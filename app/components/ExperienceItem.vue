@@ -13,7 +13,7 @@ defineProps<{
 </script>
 
 <template>
-  <article class="card h-100 shadow-sm">
+  <article class="card h-100 profile-card">
     <div class="card-body">
       <div class="d-flex flex-column flex-lg-row justify-content-between gap-2 mb-3">
         <div>

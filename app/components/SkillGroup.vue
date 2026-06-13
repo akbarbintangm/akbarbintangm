@@ -16,12 +16,10 @@ const iconByCategory: Record<string, string> = {
 </script>
 
 <template>
-  <div class="card h-100 shadow-sm">
+  <div class="card h-100 profile-card">
     <div class="card-body">
       <div class="d-flex align-items-center gap-3 mb-3">
-        <span class="btn btn-primary disabled rounded-circle d-inline-flex align-items-center justify-content-center">
-          <i :class="iconByCategory[group.category] ?? 'fa-solid fa-code'"></i>
-        </span>
+        <i :class="iconByCategory[group.category] ?? 'fa-solid fa-code'" class="section-icon"></i>
         <h2 class="h5 card-title mb-0">{{ group.category }}</h2>
       </div>
       <div class="d-flex flex-wrap gap-2">

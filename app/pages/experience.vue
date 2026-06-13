@@ -25,7 +25,7 @@ useSeoMeta({
       </div>
 
       <aside class="col-lg-4">
-        <div class="card mb-3 shadow-sm">
+        <div class="card mb-3 profile-card">
           <div class="card-body">
             <h2 class="h5 card-title">
               <i class="fa-solid fa-graduation-cap text-primary me-2"></i>Education
@@ -40,7 +40,7 @@ useSeoMeta({
           </div>
         </div>
 
-        <div class="card shadow-sm">
+        <div class="card profile-card">
           <div class="card-body">
             <h2 class="h5 card-title">
               <i class="fa-solid fa-language text-primary me-2"></i>Languages

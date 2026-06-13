@@ -15,7 +15,7 @@ const year = new Date().getFullYear()
 </script>
 
 <template>
-  <footer class="border-top bg-body-tertiary py-4 mt-auto">
+  <footer class="border-top py-4 mt-auto">
     <div class="container">
       <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
         <div>

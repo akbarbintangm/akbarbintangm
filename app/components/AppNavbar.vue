@@ -10,10 +10,10 @@ const navigation = useProfileNavigation()
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom sticky-top shadow-sm">
+  <nav class="navbar navbar-expand-lg sticky-top site-navbar">
     <div class="container">
       <button
-        class="btn btn-outline-primary me-3"
+        class="btn btn-outline-primary menu-trigger me-3 d-inline-flex align-items-center justify-content-center"
         type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#profileSidebar"

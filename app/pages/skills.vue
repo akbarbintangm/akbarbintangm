@@ -29,7 +29,7 @@ useSeoMeta({
 
     <div class="row row-cols-1 row-cols-lg-2 g-3">
       <div class="col">
-        <div class="card h-100 shadow-sm">
+        <div class="card h-100 profile-card">
           <div class="card-body">
             <h2 class="h5 card-title">
               <i class="fa-solid fa-plug text-primary me-2"></i>Backend and Integration
@@ -41,7 +41,7 @@ useSeoMeta({
         </div>
       </div>
       <div class="col">
-        <div class="card h-100 shadow-sm">
+        <div class="card h-100 profile-card">
           <div class="card-body">
             <h2 class="h5 card-title">
               <i class="fa-solid fa-window-maximize text-primary me-2"></i>Frontend Delivery

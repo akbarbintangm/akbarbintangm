@@ -56,7 +56,7 @@ const chatItems = computed(() => [
   <div class="floating-actions position-fixed d-flex flex-column align-items-end gap-2">
     <button
       v-if="showScrollTop"
-      class="btn btn-secondary rounded-circle shadow d-inline-flex align-items-center justify-content-center"
+      class="btn btn-outline-secondary d-inline-flex align-items-center justify-content-center"
       type="button"
       aria-label="Scroll to top"
       title="Scroll to top"
@@ -66,7 +66,7 @@ const chatItems = computed(() => [
     </button>
 
     <button
-      class="btn btn-primary rounded-circle shadow d-inline-flex align-items-center justify-content-center"
+      class="btn btn-primary d-inline-flex align-items-center justify-content-center"
       type="button"
       aria-label="Toggle theme"
       title="Toggle theme"
@@ -77,7 +77,7 @@ const chatItems = computed(() => [
 
     <div class="dropup">
       <button
-        class="btn btn-success rounded-circle shadow d-inline-flex align-items-center justify-content-center"
+        class="btn btn-success d-inline-flex align-items-center justify-content-center"
         type="button"
         data-bs-toggle="dropdown"
         aria-expanded="false"
