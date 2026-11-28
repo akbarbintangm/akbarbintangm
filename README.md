@@ -153,7 +153,7 @@ Secondary Framework/UI:<br>
 ![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B)
 
 # 📊 GitHub Stats:
-[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=akbarbintangm&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=blue_navy)](https://github-stats-extended.vercel.app/api?username=akbarbintangm&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=blue_navy)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api?username=akbarbintangm&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=blue_navy)](https://github-stats-extended.vercel.app/api?username=akbarbintangm&show=reviews%2Cdiscussions_started%2Cdiscussions_answered%2Cprs_merged%2Cprs_merged_percentage%2Cprs_commented%2Cprs_reviewed%2Cissues_commented%2Ccontributions%2Call_time_contribs&show_icons=true&include_all_commits=true&theme=blue_navy) <br>
 [![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=akbarbintangm&langs_count=4&theme=blue_navy)](https://github-stats-extended.vercel.app/api/top-langs?username=akbarbintangm&langs_count=4&theme=blue_navy)
 
 ---
